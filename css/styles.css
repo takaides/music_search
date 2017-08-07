@@ -1,3 +1,64 @@
+audio {
+  width: 100%;
+}
+
 body {
   background-color: #60d9f1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.box {
+  width: 18%;
+  padding: 1vh 1%;
+}
+
+#container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+header {
+  font-family: 'Spectral', serif;
+}
+
+hr {
+  width: 100%;
+}
+
+#player {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 0;
+  transition: height .5s;
+}
+
+.result {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  background-color: none;
+  border-radius: 0;
+  text-align: center;
+}
+
+#results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#song-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#titanic {
+  float: none;
 }
